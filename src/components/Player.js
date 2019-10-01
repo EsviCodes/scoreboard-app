@@ -6,6 +6,10 @@ export default class Player extends Component {
     name: PropTypes.string.isRequired
   };
 
+  state = {
+    score: 0
+  };
+
   render() {
     return (
       <li className="player">

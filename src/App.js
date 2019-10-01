@@ -6,7 +6,7 @@ import Scoreboard from "./components/Scoreboard";
 function App() {
   return (
     <div className="App">
-      <Title content="The Powerpuff Girls" />
+      <Title content="The Powerpuff Girls: Who rescued the most kitties?" />
       <main>
         <Scoreboard />
       </main>
